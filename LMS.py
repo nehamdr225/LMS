@@ -4,9 +4,7 @@ name=[x.strip() for x in name] ## removes white spaces
 ##name = ["physics","chemistry","maths","edc","ect"]
 
 def ret(back):
-    ##f.append(back) ## cannot use append in r+ cannot use read in a+ >.<
-    for item in name:
-        f.write("%s\n" %item)  ## writes the full list each time i open it >.<
+        f.write("%s\n" %back)  ## writes the full list each time i open it >.<
 
 ir = eval(input("Do you want to issue or return a book? 1 or 2 "))
 if (ir==1):
